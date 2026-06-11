@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recommended Tools & Resources | FrugalLivingToday</title>
+  <title>Recommended Tools &amp; Resources | FrugalLivingToday</title>
   <meta name="description" content="The best free and low-cost financial tools for saving money, earning cashback, building credit, and growing your savings. Curated by FrugalLivingToday.">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: Georgia, 'Times New Roman', serif; background: #fafaf7; color: #2c2c2c; line-height: 1.75; }
-    a { color: #2a7a4b; text-decoration: none; }
+    a { color: #2a7a4b; }
     a:hover { text-decoration: underline; }
     header { background: #1a3c2a; padding: 0 20px; }
     .header-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
@@ -16,34 +16,22 @@
     .logo span { color: #6fcf97; }
     nav a { color: #cce8d8; font-family: Arial, sans-serif; font-size: 0.9rem; margin-left: 24px; }
     nav a:hover { color: #fff; text-decoration: none; }
-    .hero-sm { background: linear-gradient(135deg, #1a3c2a 0%, #2a6644 100%); color: #fff; padding: 44px 20px; text-align: center; }
-    .hero-sm h1 { font-size: 2rem; max-width: 640px; margin: 0 auto 12px; line-height: 1.3; }
-    .hero-sm p { font-family: Arial, sans-serif; font-size: 1rem; color: #cce8d8; max-width: 520px; margin: 0 auto; }
-    .main { max-width: 900px; margin: 48px auto 80px; padding: 0 20px; }
-    .disc-note { background: #f0f9f4; border: 1px solid #d4edda; border-radius: 8px; padding: 14px 18px; font-family: Arial, sans-serif; font-size: 0.84rem; color: #555; margin-bottom: 40px; }
-    .disc-note strong { color: #1a3c2a; }
-    .section-title { font-size: 1.5rem; color: #1a3c2a; margin-bottom: 6px; margin-top: 48px; }
-    .section-sub { font-family: Arial, sans-serif; font-size: 0.9rem; color: #666; margin-bottom: 24px; }
-    .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 12px; }
-    .resource-card { background: #fff; border: 1px solid #e2e8e4; border-radius: 10px; padding: 24px; position: relative; transition: box-shadow 0.2s; }
-    .resource-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.09); }
-    .resource-card .badge { display: inline-block; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.8px; padding: 3px 10px; border-radius: 3px; background: #1a3c2a; color: #6fcf97; margin-bottom: 12px; }
-    .resource-card h3 { font-size: 1.05rem; color: #1a3c2a; margin-bottom: 8px; }
-    .resource-card p { font-family: Arial, sans-serif; font-size: 0.85rem; color: #555; margin-bottom: 16px; line-height: 1.6; }
-    .resource-card .perk { font-family: Arial, sans-serif; font-size: 0.82rem; background: #f0f9f4; border-left: 3px solid #6fcf97; padding: 8px 12px; margin-bottom: 16px; color: #2c2c2c; border-radius: 0 4px 4px 0; }
-    .cta-link { display: inline-block; background: #2a7a4b; color: #fff; font-family: Arial, sans-serif; font-size: 0.85rem; font-weight: bold; padding: 9px 18px; border-radius: 5px; }
-    .cta-link:hover { background: #1a3c2a; text-decoration: none; }
-    .cta-link.outline { background: transparent; border: 2px solid #2a7a4b; color: #2a7a4b; }
-    .cta-link.outline:hover { background: #2a7a4b; color: #fff; }
-    .featured-card { background: #1a3c2a; color: #fff; border-radius: 12px; padding: 32px; margin-bottom: 20px; display: flex; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
-    .featured-card .fc-text h3 { font-size: 1.2rem; color: #6fcf97; margin-bottom: 8px; }
-    .featured-card .fc-text p { font-family: Arial, sans-serif; font-size: 0.9rem; color: #cce8d8; margin-bottom: 16px; line-height: 1.65; }
-    .featured-card .cta-link { background: #6fcf97; color: #1a3c2a; }
-    .featured-card .cta-link:hover { background: #fff; }
-    footer { background: #1a3c2a; color: #9dc9b0; padding: 32px 20px; }
-    .footer-inner { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+    .resources-wrap { max-width: 860px; margin: 40px auto 60px; padding: 0 20px; }
+    h1 { font-size: 2rem; color: #1a3c2a; margin-bottom: 10px; }
+    .disc-note { font-family: Arial, sans-serif; font-size: 0.82rem; color: #888; margin-bottom: 36px; border-left: 4px solid #6fcf97; padding-left: 14px; }
+    h2 { font-size: 1.3rem; color: #1a3c2a; margin: 40px 0 18px; border-bottom: 2px solid #d4edda; padding-bottom: 8px; }
+    .res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; margin-bottom: 16px; }
+    .res-card { background: #fff; border: 1px solid #e0ede6; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; }
+    .res-badge { display: inline-block; background: #e8f5ef; color: #2a6644; font-family: Arial, sans-serif; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 3px; margin-bottom: 10px; }
+    .res-name { font-size: 1.05rem; font-weight: bold; color: #1a3c2a; margin-bottom: 6px; }
+    .res-card p { font-family: Arial, sans-serif; font-size: 0.83rem; color: #555; flex: 1; margin-bottom: 14px; }
+    .res-card .earn-note { font-family: Arial, sans-serif; font-size: 0.78rem; color: #2a7a4b; margin-bottom: 12px; font-style: italic; }
+    .res-card a.res-btn { background: #1a3c2a; color: #fff; font-family: Arial, sans-serif; font-size: 0.82rem; font-weight: bold; padding: 9px 16px; border-radius: 5px; display: inline-block; text-align: center; }
+    .res-card a.res-btn:hover { background: #2a6644; text-decoration: none; }
+    footer { background: #1a3c2a; color: #9dc9b0; padding: 28px 20px; margin-top: 60px; }
+    .footer-inner { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
     .footer-inner p { font-family: Arial, sans-serif; font-size: 0.82rem; }
-    .disc { font-size: 0.75rem; color: #6a9e7e; max-width: 540px; }
+    .disc { font-size: 0.75rem; color: #6a9e7e; max-width: 520px; }
   </style>
 </head>
 <body>
@@ -51,168 +39,172 @@
   <div class="header-inner">
     <div class="logo">Frugal<span>Living</span>Today</div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="cashback-apps.html">Cashback</a>
-      <a href="hysa.html">Savings</a>
-      <a href="side-hustles.html">Side Hustles</a>
-      <a href="resources.html" style="color:#6fcf97">Resources</a>
+      <a href='/'>Home</a>
+      <a href='/cashback-apps'>Cashback</a>
+      <a href='/hysa'>Savings</a>
+      <a href='/side-hustles'>Side Hustles</a>
+      <a href='/resources'>Resources</a>
     </nav>
   </div>
 </header>
-<div class="hero-sm">
-  <h1>💳 Recommended Tools &amp; Resources</h1>
-  <p>Every tool below is something we've researched and recommend. Links marked with → are referral links — we may earn a reward if you sign up, at no cost to you.</p>
-</div>
 
-<div class="main">
-  <div class="disc-note">
-    <strong>Disclosure:</strong> This page contains affiliate and referral links. If you apply or sign up through these links, we may earn a commission or a referral reward - at absolutely no extra cost to you. We only feature tools we genuinely recommend.
-  </div>
-  <!-- CASHBACK & SHOPPING -->
-  <h2 class="section-title">💰 Cashback &amp; Shopping Rewards</h2>
-  <p class="section-sub">Free tools that put money back in your pocket automatically.</p>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <span class="badge">Free</span>
-      <h3>Rakuten</h3>
+<div class="resources-wrap">
+  <h1>💳 Recommended Tools &amp; Resources</h1>
+  <p class="disc-note">Every tool below is something we've researched and recommend. Links marked with → are referral links — we may earn a reward if you sign up, at no cost to you.<br><br><strong>Disclosure:</strong> This page contains affiliate and referral links. If you apply or sign up through these links, we may earn a commission or referral reward — at absolutely no extra cost to you. We only feature tools we genuinely recommend.</p>
+
+  <h2>💰 Cashback &amp; Shopping Rewards</h2>
+  <div class="res-grid">
+    <div class="res-card">
+      <span class="res-badge">Free</span>
+      <div class="res-name">Rakuten</div>
       <p>Shop through Rakuten and earn 1–15% cashback at 3,500+ stores including Walmart, Target, Amazon, and grocery delivery apps. Paid quarterly via check or PayPal.</p>
-      <div class="perk">🎁 New members get a $30 welcome bonus after first qualifying purchase</div>
-      <a class="cta-link" href="https://www.rakuten.com/r/K1001U?eeid=28187" target="_blank" rel="noopener">Join Rakuten Free →</a>
+      <p class="earn-note">🎁 New members get a $30 welcome bonus after first qualifying purchase</p>
+      <a href="https://www.rakuten.com/r/K1001U?eeid=28187" class="res-btn">Join Rakuten Free →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Free</span>
-      <h3>Ibotta</h3>
+    <div class="res-card">
+      <span class="res-badge">Free</span>
+      <div class="res-name">Ibotta</div>
       <p>America's #1 grocery cashback app. Browse offers, shop at Walmart, Kroger, Target, and more, then snap your receipt to earn cash back on name brands you already buy.</p>
-      <div class="perk">💵 Active users earn $20–$50/month on regular grocery trips</div>
-      <a class="cta-link outline" href="https://home.ibotta.com/" target="_blank" rel="noopener">Download Ibotta →</a>
+      <p class="earn-note">💵 Active users earn $20–$50/month on regular grocery trips</p>
+      <a href="https://home.ibotta.com/" class="res-btn">Download Ibotta →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Free</span>
-      <h3>Fetch Rewards</h3>
+    <div class="res-card">
+      <span class="res-badge">Free</span>
+      <div class="res-name">Fetch Rewards</div>
       <p>Scan any grocery receipt — no pre-loading offers required. Earn points automatically on every trip that redeem for Amazon, Target, and Starbucks gift cards.</p>
-      <div class="perk">⭐ Zero effort required:just scan your receipt every time</div>
-      <a class="cta-link outline" href="https://www.fetchrewards.com/" target="_blank" rel="noopener">Get Fetch Rewards →</a>
+      <p class="earn-note">⭐ Zero effort required: just scan your receipt every time</p>
+      <a href="https://www.fetchrewards.com/" class="res-btn">Get Fetch Rewards →</a>
     </div>
   </div>
-  <!-- CREDIT CARDS -->
-  <h2 class="section-title">💳 Recommended Credit Cards</h2>
-  <p class="section-sub">Cards we recommend for cashback, travel, and everyday spending. Referral links — we may earn a reward if approved.</p>
-  <div class="featured-card">
-    <div class="fc-text">
-      <h3>Chase Freedom Unlimited — Best No-Annual-Fee Card</h3>
-      <p>Earn unlimited 1.5% cash back on every purchase with no annual fee. No rotating categories, no confusing rules. Stack with Rakuten and grocery cashback apps and you're earning from 3 sources on every purchase.</p>
-      <a class="cta-link" href="https://www.referyourchasecard.com/18a/CKXQKJC7JO" target="_blank" rel="noopener">Apply for Chase Freedom Unlimited →</a>
+
+  <h2>💳 Recommended Credit Cards</h2>
+  <div class="res-grid">
+    <div class="res-card">
+      <span class="res-badge">No Annual Fee</span>
+      <div class="res-name">Chase Freedom Unlimited</div>
+      <p>Earn unlimited 1.5% cash back on every purchase with no annual fee. No rotating categories, no confusing rules. Stack with Rakuten and grocery cashback apps for maximum savings.</p>
+      <p class="earn-note">💳 Best no-annual-fee cashback card for everyday spending</p>
+      <a href="https://www.referyourchasecard.com/18a/CKXQKJC7JO" class="res-btn">Apply for Chase Freedom Unlimited →</a>
+    </div>
+    <div class="res-card">
+      <span class="res-badge">Travel Rewards</span>
+      <div class="res-name">Amex Gold Card</div>
+      <p>Earn 4x Membership Rewards points at U.S. supermarkets and restaurants, 3x on flights. Best grocery rewards card available — $25,000/year cap at supermarkets.</p>
+      <p class="earn-note">🛒 4x points = effectively 4%+ back on every grocery trip</p>
+      <a href="https://americanexpress.com/en-us/referral/gold-card?ref=KEIICOL3l1&xl=cp10o6" class="res-btn">Apply for Amex Gold →</a>
+    </div>
+    <div class="res-card">
+      <span class="res-badge">Hotel Rewards</span>
+      <div class="res-name">Amex Hilton Honors Card</div>
+      <p>Earn Hilton Honors points on every purchase — great if you travel even occasionally. No annual fee on the base card. Turn everyday spending into free hotel nights.</p>
+      <p class="earn-note">✈️ Earn points on groceries, gas, and restaurants automatically</p>
+      <a href="https://americanexpress.com/en-us/referral/hilton-honors?ref=KEIICO0UOG&xl=cp10o6" class="res-btn">Apply for Hilton Honors →</a>
+    </div>
+    <div class="res-card">
+      <span class="res-badge">Hotel Rewards</span>
+      <div class="res-name">Amex Hilton Honors Card (Alt Link)</div>
+      <p>Second referral link for the Amex Hilton Honors Card. Same great card — earn points on everyday purchases and redeem for free stays at Hilton properties worldwide.</p>
+      <p class="earn-note">🏨 Hilton has 7,000+ properties in 122 countries</p>
+      <a href="https://americanexpress.com/en-us/referral/hilton-honors?ref=KEIICOQr1C&xl=cp10o6" class="res-btn">Apply for Hilton Honors →</a>
+    </div>
+    <div class="res-card">
+      <span class="res-badge">No Annual Fee</span>
+      <div class="res-name">Capital One Quicksilver</div>
+      <p>Unlimited 1.5% cash back on every purchase, every day. No annual fee, no rotating categories to track. One of the cleanest flat-rate cashback cards available — great as a backup to any rewards card.</p>
+      <p class="earn-note">💳 Simple, reliable 1.5% back on everything — always</p>
+      <a href="https://i.capitalone.com/GJrjFU9b9" class="res-btn">Apply for Quicksilver →</a>
+    </div>
+    <div class="res-card">
+      <span class="res-badge">Rotating 5% Back</span>
+      <div class="res-name">Discover it® Cash Back</div>
+      <p>Earn 5% cash back on everyday purchases at different places each quarter — groceries, gas, restaurants, Amazon, and more — up to the quarterly maximum. Plus unlimited 1% on everything else. Discover matches all cash back earned in your first year.</p>
+      <p class="earn-note">🔄 First-year cash back match = effectively 10% the first year</p>
+      <a href="https://refer.discover.com/k1001usa2!66b3f0202c!a" class="res-btn">Apply for Discover it →</a>
     </div>
   </div>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <span class="badge">Travel Rewards</span>
-      <h3>Amex Gold Card</h3>
-      <p>Earn 4x Membership Rewards points at U.S. supermarkets and restaurants, 3x on flights. Best grocery rewards card available - $25,000/year cap at supermarkets.</p>
-      <div class="perk">🛒 4x points = effectively 4%+ back on every grocery trip</div>
-      <a class="cta-link" href="https://americanexpress.com/en-us/referral/gold-card?ref=KEIICOL3l1&xl=cp10o6" target="_blank" rel="noopener">Apply for Amex Gold →</a>
+
+  <h2>🏦 Banking &amp; High-Yield Savings</h2>
+  <div class="res-grid">
+    <div class="res-card">
+      <span class="res-badge">Up to 5.00% APY</span>
+      <div class="res-name">Varo Bank</div>
+      <p>One of the highest savings rates available. No monthly fees, no minimum to open. The top rate requires qualifying direct deposits — still one of the best deals going.</p>
+      <p class="earn-note">💰 $10,000 at 5% APY = $500/year vs. $38 at a big bank</p>
+      <a href="https://www.varomoney.com/" class="res-btn">Open Varo Account →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Hotel Rewards</span>
-      <h3>Amex Hilton Honors Card</h3>
-      <p>Earn Hilton Honors points on every purchase - great if you travel even occasionally. No annual fee on the base card. Turn everyday spending into free hotel nights.</p>
-      <div class="perk">✈️ Earn points on groceries, gas, and restaurants automatically</div>
-      <a class="cta-link" href="https://americanexpress.com/en-us/referral/hilton-honors?ref=KEIICO0UOG&xl=cp10o6" target="_blank" rel="noopener">Apply for Hilton Honors →</a>
+    <div class="res-card">
+      <span class="res-badge">Up to 4.21% APY</span>
+      <div class="res-name">Axos Bank</div>
+      <p>No monthly fees, no minimum balance, clean mobile app. Competitive rates with no strings attached — what you see is what you get. FDIC insured.</p>
+      <p class="earn-note">✅ No complex requirements to earn the advertised rate</p>
+      <a href="https://www.axosbank.com/" class="res-btn">Open Axos Account →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Hotel Rewards</span>
-      <h3>Amex Hilton Honors Card (Alt Link)</h3>
-      <p>Second referral link for the Amex Hilton Honors Card. Same great card - earn points on everyday purchases and redeem for free stays at Hilton properties worldwide.</p>
-      <div class="perk">🏨 Hilton has 7,000+ properties in 122 countries</div>
-      <a class="cta-link" href="https://americanexpress.com/en-us/referral/hilton-honors?ref=KEIICOQr1C&xl=cp10o6" target="_blank" rel="noopener">Apply for Hilton Honors →</a>
-    </div>
-  </div>
-  <!-- BANKING & SAVINGS -->
-  <h2 class="section-title">🏦 Banking &amp; High-Yield Savings</h2>
-  <p class="section-sub">Where to park your money to earn 10–13x the national average interest rate.</p>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <span class="badge">Up to 5.00% APY</span>
-      <h3>Varo Bank</h3>
-      <p>One of the highest savings rates available. No monthly fees, no minimum to open. The top rate requires qualifying direct deposits - still one of the best deals going.</p>
-      <div class="perk">💰 $10,000 at 5% APY = $500/year vs. $38 at a big bank</div>
-      <a class="cta-link outline" href="https://www.varomoney.com/" target="_blank" rel="noopener">Open Varo Account →</a>
-    </div>
-    <div class="resource-card">
-      <span class="badge">Up to 4.21% APY</span>
-      <h3>Axos Bank</h3>
-      <p>No monthly fees, no minimum balance, clean mobile app. Competitive rates with no strings attached - what you see is what you get. FDIC insured.</p>
-      <div class="perk">✅ No complex requirements to earn the advertised rate</div>
-      <a class="cta-link outline" href="https://www.axosbank.com/" target="_blank" rel="noopener">Open Axos Account →</a>
-    </div>
-    <div class="resource-card">
-      <span class="badge">Investing</span>
-      <h3>Acorns</h3>
+    <div class="res-card">
+      <span class="res-badge">Investing</span>
+      <div class="res-name">Acorns</div>
       <p>Rounds up every purchase to the nearest dollar and invests the spare change automatically. Also has a checking account with 3% cashback at 15,000+ brands. Great for beginners.</p>
-      <div class="perk">🌱 Start investing with literally your spare change</div>
-      <a class="cta-link outline" href="https://www.acorns.com/" target="_blank" rel="noopener">Start with Acorns →</a>
+      <p class="earn-note">🌱 Start investing with literally your spare change</p>
+      <a href="https://www.acorns.com/" class="res-btn">Start with Acorns →</a>
     </div>
   </div>
-  <!-- FINANCIAL TOOLS -->
-  <h2 class="section-title">📊 Free Financial Tools</h2>
-  <p class="section-sub">Tools for budgeting, credit monitoring, and making smarter financial decisions.</p>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <span class="badge">Free</span>
-      <h3>NerdWallet</h3>
+
+  <h2>📊 Free Financial Tools</h2>
+  <div class="res-grid">
+    <div class="res-card">
+      <span class="res-badge">Free</span>
+      <div class="res-name">NerdWallet</div>
       <p>Free credit score monitoring plus personalized recommendations for credit cards, loans, and savings accounts based on your actual credit profile. No credit card required to sign up.</p>
-      <div class="perk">📈 Free weekly credit score updates with no impact on your score</div>
-      <a class="cta-link outline" href="https://www.nerdwallet.com/" target="_blank" rel="noopener">Check NerdWallet →</a>
+      <p class="earn-note">📈 Free weekly credit score updates with no impact on your score</p>
+      <a href="https://www.nerdwallet.com/" class="res-btn">Check NerdWallet →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Free</span>
-      <h3>Credit Karma</h3>
+    <div class="res-card">
+      <span class="res-badge">Free</span>
+      <div class="res-name">Credit Karma</div>
       <p>Free credit score and report monitoring from TransUnion and Equifax. Get alerted when your score changes, and see personalized card and loan recommendations.</p>
-      <div class="perk">🔔 Real-time alerts when your credit profile changes</div>
-      <a class="cta-link outline" href="https://www.creditkarma.com/" target="_blank" rel="noopener">Check Credit Karma →</a>
+      <p class="earn-note">🔔 Real-time alerts when your credit profile changes</p>
+      <a href="https://www.creditkarma.com/" class="res-btn">Check Credit Karma →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Surveys</span>
-      <h3>Survey Junkie</h3>
-      <p>Earn cash for sharing your opinions. One of the highest-rated survey sites - cash out via PayPal or e-gift cards starting at $5. Best as a low-effort side supplement.</p>
-      <div class="perk">💬 Most surveys pay $1–$3 and take 5–15 minutes</div>
-      <a class="cta-link outline" href="https://www.surveyjunkie.com/" target="_blank" rel="noopener">Join Survey Junkie →</a>
+    <div class="res-card">
+      <span class="res-badge">Surveys</span>
+      <div class="res-name">Survey Junkie</div>
+      <p>Earn cash for sharing your opinions. One of the highest-rated survey sites — cash out via PayPal or e-gift cards starting at $5. Best as a low-effort side supplement.</p>
+      <p class="earn-note">💬 Most surveys pay $1–$3 and take 5–15 minutes</p>
+      <a href="https://www.surveyjunkie.com/" class="res-btn">Join Survey Junkie →</a>
     </div>
   </div>
-  <!-- LENDING / PERSONAL LOANS -->
-  <h2 class="section-title">🏡 Loans &amp; Refinancing</h2>
-  <p class="section-sub">If you need to compare rates on personal loans, auto loans, or mortgages, these tools let you check offers without affecting your credit score.</p>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <span class="badge">Rate Comparison</span>
-      <h3>LendingTree</h3>
-      <p>Compare personalized loan offers from multiple lenders in minutes. Personal loans, auto loans, mortgages, and credit cards - see your real rates with a soft credit pull (soft credit pull, no score impact).</p>
-      <div class="perk">🔍 See real rates from 200+ lenders without hurting your credit</div>
-      <a class="cta-link outline" href="https://www.lendingtree.com/" target="_blank" rel="noopener">Compare Rates →</a>
+
+  <h2>🏠 Loans &amp; Refinancing</h2>
+  <div class="res-grid">
+    <div class="res-card">
+      <span class="res-badge">Rate Comparison</span>
+      <div class="res-name">LendingTree</div>
+      <p>Compare personalized loan offers from multiple lenders in minutes. Personal loans, auto loans, mortgages, and credit cards — see your real rates with a soft credit pull (no score impact).</p>
+      <p class="earn-note">🔍 See real rates from 200+ lenders without hurting your credit</p>
+      <a href="https://www.lendingtree.com/" class="res-btn">Compare Rates →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Banking</span>
-      <h3>SoFi</h3>
-      <p>Online bank with high-yield savings, checking, personal loans, and investing all in one place. Members get perks like career coaching, financial planning, and exclusive rate discounts.</p>
-      <div class="perk">🏦 High APY on savings plus no-fee checking in one app</div>
-      <a class="cta-link outline" href="https://www.sofi.com/" target="_blank" rel="noopener">Open SoFi Account →</a>
+    <div class="res-card">
+      <span class="res-badge">Banking</span>
+      <div class="res-name">SoFi</div>
+      <p>Online bank with high-yield savings, checking, personal loans, and investing all in one place. Members get perks like career coaching, financial planning, and exclusive rate discounts on loans and personal finance products.
+      </p>
+      <p class="earn-note">🏦 High APY on savings plus no-fee checking in one app</p>
+      <a href="https://www.sofi.com/invite/money?gcp=82dd5ae8-1239-48c7-a633-fde209d52dd4&isAliasGcp=false" class="res-btn">Open SoFi Account →</a>
     </div>
-    <div class="resource-card">
-      <span class="badge">Banking</span>
-      <h3>Chime</h3>
+    <div class="res-card">
+      <span class="res-badge">Banking</span>
+      <div class="res-name">Chime</div>
       <p>Fee-free online checking with no minimum balance, no overdraft fees (up to $200), and direct deposit up to 2 days early. A straightforward alternative to traditional banks.</p>
-      <div class="perk">⚡ Get your paycheck up to 2 days early with direct deposit</div>
-      <a class="cta-link outline" href="https://www.chime.com/" target="_blank" rel="noopener">Open Chime Account →</a>
+      <p class="earn-note">⚡ Get your paycheck up to 2 days early with direct deposit</p>
+      <a href="https://www.chime.com/" class="res-btn">Open Chime Account →</a>
     </div>
   </div>
 </div>
 
 <footer>
   <div class="footer-inner">
-    <p>© 2026 FrugalLivingToday · <a href="index.html" style="color:#9dc9b0">Home</a> · <a href="resources.html" style="color:#9dc9b0">Resources</a></p>
-    <p class="disc">This page contains affiliate and referral links. We may earn a commission or reward if you click and are approved or sign up - at no cost to you. Content is for informational purposes only and is not financial advice.</p>
+    <p>© 2026 FrugalLivingToday · <a href='/' style='color:#9dc9b0'>Home</a> · <a href='/resources' style='color:#9dc9b0'>Resources</a></p>
+    <p class="disc">This page contains affiliate and referral links. We may earn a commission or reward if you click and are approved or sign up — at no cost to you. Content is for informational purposes only and is not financial advice.</p>
   </div>
 </footer>
-
 </body>
 </html>
